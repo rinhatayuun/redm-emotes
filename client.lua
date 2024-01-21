@@ -598,7 +598,7 @@ CreateThread(function()
 			end
 			if CurrentEmote.prop4 then
 				if not (CurrentEmote.prop4.handle and DoesEntityExist(CurrentEmote.prop4.handle)) then
-					Createprop4()
+					CreateProp4()
 					AttachProp4(ped)
 				elseif not IsEntityAttachedToEntity(CurrentEmote.prop4.handle, ped) then
 					AttachProp(ped)
@@ -606,7 +606,7 @@ CreateThread(function()
 			end
 			if CurrentEmote.prop5 then
 				if not (CurrentEmote.prop5.handle and DoesEntityExist(CurrentEmote.prop5.handle)) then
-					Createprop5()
+					CreateProp5()
 					AttachProp5(ped)
 				elseif not IsEntityAttachedToEntity(CurrentEmote.prop5.handle, ped) then
 					AttachProp(ped)
@@ -614,7 +614,7 @@ CreateThread(function()
 			end
 			if CurrentEmote.prop6 then
 				if not (CurrentEmote.prop6.handle and DoesEntityExist(CurrentEmote.prop6.handle)) then
-					Createprop6()
+					CreateProp6()
 					AttachProp6(ped)
 				elseif not IsEntityAttachedToEntity(CurrentEmote.prop6.handle, ped) then
 					AttachProp(ped)
@@ -622,7 +622,7 @@ CreateThread(function()
 			end
 			if CurrentEmote.prop7 then
 				if not (CurrentEmote.prop7.handle and DoesEntityExist(CurrentEmote.prop7.handle)) then
-					Createprop7()
+					CreateProp7()
 					AttachProp7(ped)
 				elseif not IsEntityAttachedToEntity(CurrentEmote.prop7.handle, ped) then
 					AttachProp(ped)
@@ -630,7 +630,7 @@ CreateThread(function()
 			end
 			if CurrentEmote.prop8 then
 				if not (CurrentEmote.prop8.handle and DoesEntityExist(CurrentEmote.prop8.handle)) then
-					Createprop8()
+					CreateProp8()
 					AttachProp8(ped)
 				elseif not IsEntityAttachedToEntity(CurrentEmote.prop8.handle, ped) then
 					AttachProp(ped)
@@ -638,7 +638,7 @@ CreateThread(function()
 			end
 			if CurrentEmote.prop9 then
 				if not (CurrentEmote.prop9.handle and DoesEntityExist(CurrentEmote.prop9.handle)) then
-					Createprop9()
+					CreateProp9()
 					AttachProp9(ped)
 				elseif not IsEntityAttachedToEntity(CurrentEmote.prop9.handle, ped) then
 					AttachProp(ped)
@@ -646,7 +646,7 @@ CreateThread(function()
 			end
 			if CurrentEmote.prop10 then
 				if not (CurrentEmote.prop10.handle and DoesEntityExist(CurrentEmote.prop10.handle)) then
-					Createprop10()
+					CreateProp10()
 					AttachProp10(ped)
 				elseif not IsEntityAttachedToEntity(CurrentEmote.prop10.handle, ped) then
 					AttachProp(ped)
